@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/dist/output.css" rel="stylesheet">
+    <title>challenge</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+
+</head>
+
+<body class="font-poppins">
+
+    <div id="hero" class=" relative container min-h-screen bg-purple1 max-w-full flex flex-col text-white">
+        <!-- blobs -->
+
+        <div class="blob1 hidden md:block">
+            <img src="../images/ellipse-5.png" alt="">
+        </div>
+        <div class="blob2 ">
+            <img src="../images/ellipse-3.png" alt="">
+        </div>
+        <div class="blob3 ">
+            <img src="../images/ellipse-4.png" alt="">
+        </div>
+
+        <!-- header -->
+
+        <header class="flex container items-center justify-between max-w-full px-20 py-8 isolate">
+            <div class="logoo flex gap-1 items-center ">
+                <svg class="p-3 h-9 w-9 bg-dirtwhite " xmlns="http://www.w3.org/2000/svg" width="10" height="19"
+                    viewBox="0 0 10 19" fill="none">
+                    <path
+                        d="M2.15481 0.324738C2.15481 0.324738 -0.297807 17.6018 2.15481 17.6748C4.60743 17.7477 8.93527 1.52128 8.93527 1.52128"
+                        stroke="#5856E1" stroke-width="2" />
+                    <path d="M3.55829 5.96155C4.32912 9.93278 5.45726 11.2766 8.63531 12.226" stroke="#5856E1"
+                        stroke-width="1.5" />
+                </svg>
+                <div class="ReadiT text-dirtwhite text-6 leading-10 font-semibold">ReadiT</div>
+            </div>
+            <a href=""><button
+                    class="btn1 hidden md:flex px-6 py-4 bg-dirtwhite text-purple1 rounded-[60px] text-xl font-medium leading-7 hover:-translate-y-[-10px] hover:bg-purple2 hover:text-white transition-[all_0.3s]">Join
+                    Community</button></a>
+        </header>
+
+        <div
+            class="content container flex max-w-[80rem] flex-col-reverse md:flex-row items-center  gap-[3.8rem] px-20 py-[5.5rem] md:py-[10.6rem] isolate">
+            <div class=" flex flex-col items-start justify-center gap-[3.8rem] animate-slideInDown">
+                <div class="discover-text flex flex-col gap-6">
+                    <h1
+                        class=" max-w-[39.4rem] text-center md:text-left text-2xl md:text-7xl leading-[80px] font-semibold">
+                        Discover Our Top 10
+                        Must-Read
+                        Books </h1>
+                    <p class="self-stretch text-xl md:text-2xl font-medium text-center md:text-left">Explore an Eclectic
+                        Collection of Fiction and
+                        Non-Fiction Masterpieces.</p>
+                </div>
+                <a href="" class="pl-14 md:pl-0"><button
+                        class="   px-6 py-3 bg-dirtwhite text-purple1 font-medium text-lg  rounded-[60px] hover:-translate-y-[-10px]  hover:bg-purple2 hover:text-white transition-all">Read
+                        Now</button></a>
+            </div>
+            <div class="book-image">
+                <img class="" src="../images/hero-image.png" alt="">
+            </div>
+        </div>
+    </div>
+
+    <!-- section slider 1-->
+    <section
+        class="container min-h-screen max-w-full flex gap-2 flex-col py-[7.5rem] px-[5rem]  items-center overflow-hidden">
+        <div class="flex flex-col items-center container gap-10">
+            <div class="flex flex-col items-center gap-8 justify-center">
+                <p class=" text-2xl font-medium leading-10 text-purple1">10 Popular books</p>
+                <h3 class="text-lg md:text-3xl font-medium leading-10 text-black max-w-[45.9rem] text-center">Immerse
+                    yourself in
+                    these
+                    captivating stories
+                    that have
+                    captured the hearts and minds of readers
+                    worldwide.</h3>
+            </div>
+            <div class="flex flex-col gap-[5.4rem] items-end md:w-[1280px] pt-[5.4rem]">
+
+                <div class="swiper slide-container  w-screen">
+                    <div class="swiper-wrapper flex pb-10 ">
+                        <div class="swiper-slide  flex justify-center items-center ">
+                            <div class=" slide-content flex flex-col gap-6  max-w-[1120px] w-[305px]">
+                                <div
+                                    class="w-[229px] h-[504px]  bg-[url('../images/image-2.png')] bg-cover bg-center bg-no-repeat">
+                                </div>
+                                <div class="flex flex-col gap-3 items-start">
+                                    <p class="text-xl font-medium text-black">A Creature Wanting Form</p>
+                                    <p class="text-ash1 text-base font-light  max-w-[15.125rem]">Author: Luke O'Neil
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide  flex justify-center items-center ">
+                            <div class=" slide-content flex flex-col gap-6  max-w-[1120px] w-[305px]">
+                                <div
+                                    class="w-[229px] h-[504px]  bg-[url('../images/image-3.png')] bg-cover bg-center bg-no-repeat">
+                                </div>
+                                <div class="flex flex-col gap-3 items-start">
+                                    <p class="text-xl font-medium text-black">The actvist Angler</p>
+                                    <p class="text-ash1 text-base font-light  max-w-[15.125rem]">Author: Stephen
+                                        Duncombe
+
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide  flex justify-center items-center ">
+                            <div class=" slide-content flex flex-col gap-6  max-w-[1120px] w-[305px]">
+                                <div
+                                    class="w-[229px] h-[504px]  bg-[url('../images/image-4.png')] bg-cover bg-center bg-no-repeat">
+                                </div>
+                                <div class="flex flex-col gap-3 items-start">
+                                    <p class="text-xl font-medium text-black">The Art of activism</p>
+                                    <p class="text-ash1 text-base font-light max-w-[15.125rem]">Author: Stephen Duncombe
+                                        & Steve Lambert
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide  flex justify-center items-center ">
+                            <div class=" slide-content flex flex-col gap-6  max-w-[1120px] w-[305px]">
+                                <div
+                                    class="w-[229px] h-[504px]  bg-[url('../images/image-5.png')] bg-cover bg-center bg-no-repeat">
+                                </div>
+                                <div class="flex flex-col gap-3 items-start">
+                                    <p class="text-xl font-medium text-black">Open house</p>
+                                    <p class="text-ash1 text-base font-light  max-w-[15.125rem]">Author: Robert Coover
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide  flex justify-center items-center ">
+                            <div class=" slide-content flex flex-col gap-6  max-w-[1120px] w-[305px]">
+                                <div
+                                    class="w-[229px] h-[504px]  bg-[url('../images/image-6.png')] bg-cover bg-center bg-no-repeat">
+                                </div>
+                                <div class="flex flex-col gap-3 items-start">
+                                    <p class="text-xl font-medium text-black">Lockdown in Hell World</p>
+                                    <p class="text-ash1 text-base font-light  max-w-[15.125rem]">Author: Luke O'Neil
+
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide  flex justify-center items-center ">
+                            <div class=" slide-content flex flex-col gap-6  max-w-[1120px] w-[305px]">
+                                <div
+                                    class="w-[229px] h-[504px]  bg-[url('../images/image-7.png')] bg-cover bg-center bg-no-repeat">
+                                </div>
+                                <div class="flex flex-col gap-3 items-start">
+                                    <p class="text-xl font-medium text-black">Weaponising Anti-Semitisim</p>
+                                    <p class="text-ash1 text-base font-light  max-w-[15.125rem]">Author: Asa Winstanley
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide  flex justify-center items-center ">
+                            <div class=" slide-content flex flex-col gap-6  max-w-[1120px] w-[305px]">
+                                <div
+                                    class="w-[229px] h-[504px]  bg-[url('../images/image-8.png')] bg-cover bg-center bg-no-repeat">
+                                </div>
+                                <div class="flex flex-col gap-3 items-start">
+                                    <p class="text-xl font-medium text-black">Operation Mindfuck</p>
+                                    <p class="text-ash1 text-base font-light  max-w-[15.125rem]">Author: Robbert Guffey
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide  flex justify-center items-center ">
+                            <div class=" slide-content flex flex-col gap-6  max-w-[1120px] w-[305px]">
+                                <div
+                                    class="w-[229px] h-[504px]  bg-[url('../images/image-9.png')] bg-cover bg-center bg-no-repeat">
+                                </div>
+                                <div class="flex flex-col gap-3 items-start">
+                                    <p class="text-xl font-medium text-black">Mad World</p>
+                                    <p class="text-ash1 text-base font-light  max-w-[15.125rem]">Author: SLAVOJ ŽIŽEK
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide  flex justify-center items-center ">
+                            <div class=" slide-content flex flex-col gap-6  max-w-[1120px] w-[305px]">
+                                <div
+                                    class="w-[229px] h-[504px]  bg-[url('../images/image-10.png')] bg-cover bg-center bg-no-repeat">
+                                </div>
+                                <div class="flex flex-col gap-3 items-start">
+                                    <p class="text-xl font-medium text-black">11 Lives</p>
+                                    <p class="text-ash1 text-base font-light  max-w-[15.125rem]">Edited by: Muhammad Ali
+                                        Khalidi
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide ">
+                            <div class="swiper-slide slide-content flex flex-col gap-6  w-[305px]">
+                                <div
+                                    class="w-[229px] h-[504px]  bg-[url('../images/image-11.png')] bg-cover bg-center bg-no-repeat">
+                                </div>
+                                <div class="flex flex-col gap-3 items-start">
+                                    <p class="text-xl font-medium text-black">I Dare Say</p>
+                                    <p class="text-ash1 text-base font-light  max-w-[15.125rem]">Edited by: T.A. Paris
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination "></div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- section-3 -->
+
+    <div class="container flex flex-col px-[7.5rem] py-20 items-center gap-10 max-w-full">
+        <div class="container max-w-[80rem]">
+            <h3 class="text-2xl font-medium text-purple1 text-center">Book of the Day</h3>
+            <div class="content-2 flex flex-col   md:flex-row  max-w-[80rem] items-center gap-[4.4rem] ">
+                <div class="left">
+                    <img src="../images/big-book.png" alt="">
+                </div>
+                <div class="flex flex-col items-start gap-8 ">
+                    <div class=" flex flex-col items-start gap-6">
+                        <h2 class="text-4xl text-center md:text-left md:text-[50px]  leading-[68px] font-semibold">
+                            Decolonize Museums</h2>
+                        <p class="max-w-[32rem] text-xl md:text-2xl font-medium text-ash1 text-center md:text-left">
+                            Explore an Eclectic Collection of
+                            Fiction
+                            and
+                            Non-Fiction Masterpieces.
+                        </p>
+                        <p class=" md:text-left flex items-center ">Author: <span
+                                class="text-2xl text-black font-semibold ">
+                                SHIMRIT
+                                LEE</span>
+                        </p>
+                    </div>
+                    <a href="" class="pl-10 md:pl-0"><button
+                            class="  px-6 py-4 bg-dirtwhite  text-purple1 border border-purple1 rounded-[60px] hover:-translate-y-[-10px]  hover:bg-purple2 hover:text-white transition-all">Read
+                            Now</button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- slider-section-2 -->
+    <section
+        class="container min-h-screen max-w-full flex gap-2 flex-col py-[7.5rem] px-[5rem]  items-center overflow-hidden">
+        <div class="flex flex-col items-center container gap-10">
+            <div class="flex flex-col items-center gap-8 justify-center">
+                <p class=" text-2xl font-medium leading-10 text-purple1">Reviews</p>
+                <h3 class="text-lg md:text-3xl font-medium leading-10 text-black max-w-[45.9rem] text-center">Discover
+                    what readers
+                    are saying about our top 10 books with these captivating reviews..</h3>
+            </div>
+            <div class="flex flex-col gap-[5.4rem] items-end md:w-[1280px] pt-[5.4rem]">
+
+                <div class="swiper slide-container-2  w-screen ">
+                    <div class="swiper-wrapper flex pb-10 items-center justify-center md:justify-start">
+                        <div class="swiper-slide  flex justify-center items-center ">
+                            <div class=" slide-content flex flex-col gap-6  max-w-[1120px] w-[484px] items-center">
+                                <div><img src="../images/round-1.png" alt=""></div>
+                                <p
+                                    class="max-w-[300.804px] md:max-w-[435.804px] text-ash1 text-center font-base  font-normal">
+                                    “A Creature Wanting Form is a poetic masterpiece that delves deep into the human
+                                    experience, exploring our yearning for purpose and identity. Rachel Green's eloquent
+                                    prose and thought-provoking metaphors make this book an enchanting journey of
+                                    self-discovery.”
+                                </p>
+                                <p class="text-black font-bold text-center">Sarah Johnson</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide  flex justify-center items-center ">
+                            <div class=" slide-content flex flex-col gap-6  max-w-[1120px] w-[484px] items-center">
+                                <div><img src="../images/round-2.png" alt=""></div>
+                                <p
+                                    class="max-w-[300.804px] md:max-w-[435.804px] text-ash1 text-center font-base  font-normal">
+                                    Lockdown in Hell World is a gripping dystopian thriller that mirrors the struggles
+                                    of our own reality. Alex Turner's skillful storytelling captures the essence of a
+                                    world in turmoil, leaving readers on the edge of their seats until the very last
+                                    page. A must-read for fans of the genre!”
+                                </p>
+                                <p class="text-black font-bold text-center">Sarah Johnson</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide  flex justify-center items-center ">
+                            <div class=" slide-content flex flex-col gap-6  max-w-[1120px] w-[484px] items-center">
+                                <div><img src="../images/round-1.png" alt=""></div>
+                                <p
+                                    class="max-w-[300.804px] md:max-w-[435.804px] text-ash1 text-center font-base  font-normal">
+                                    “The Art of Activism is a timely and practical guide that equips activists with the
+                                    tools and strategies needed to effect meaningful change. Emma Roberts' insightful
+                                    observations and actionable advice make this book a must-read for anyone seeking to
+                                    create a better world.”
+                                </p>
+                                <p class="text-black font-bold text-center">Jason Lee</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide  flex justify-center items-center ">
+                            <div class=" slide-content flex flex-col gap-6  max-w-[1120px] w-[484px] items-center">
+                                <div><img src="../images/round-2.png" alt=""></div>
+                                <p
+                                    class="max-w-[300.804px] md:max-w-[435.804px] text-ash1 text-center font-base  font-normal">
+                                    “The Art of Activism is a timely and practical guide that equips activists with the
+                                    tools and strategies needed to effect meaningful change. Emma Roberts' insightful
+                                    observations and actionable advice make this book a must-read for anyone seeking to
+                                    create a better world.”
+                                </p>
+                                <p class="text-black font-bold text-center">Sarah Johnson</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide  flex justify-center items-center ">
+                            <div class=" slide-content flex flex-col gap-6  max-w-[1120px] w-[484px] items-center">
+                                <div><img src="../images/round-2.png" alt=""></div>
+                                <p
+                                    class="max-w-[300.804px] md:max-w-[435.804px] text-ash1 text-center font-base  font-normal">
+                                    "Open House offers an enthralling exploration of human connections and
+                                    relationships, beautifully woven by Jessica Williams. This poignant tale tugs at
+                                    heartstrings and reminds us of the beauty and complexity of the human experience.”
+                                </p>
+                                <p class="text-black font-bold text-center">Sarah Johnson</p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="swiper-pagination "></div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- secton5 -->
+    <div class="container relative flex max-w-full p-20 flex-col items-center gap-2 ">
+        <div class="blob11">
+            <img src="../images/ellipse-55.png" alt="">
+        </div>
+        <div class="blob22 ">
+            <img src="../images/ellipse-44.png" alt="">
+        </div>
+
+        <div
+            class="container flex max-w-[80rem] min-h-[33.8rem] p-10 flex-col justify-center items-center  gap-10 bg-purple1 rounded-[32px] text-dirtwhite ">
+            <p class="text-2xl font-medium ">Subscribe</p>
+            <h2 class="max-w-[51rem] text-center text-base md:text-[52px] font-medium leading-[68px] z-10">Stay Updated
+                with
+                New Releases
+                and Exclusive Offers</h2>
+            <div class="flex flex-col md:flex-row items-center justify-center gap-10 z-10">
+                <div class="flex  md:w-[539px] p-6 items-center rounded-[32px] border border-dirtwhite ">
+                    <input type="email" name="" id="" placeholder="Input email address"
+                        class="bg-transparent outline-none w-full">
+                </div>
+                <a href=""><button
+                        class="py-3 px-4  md:px-[3.4rem] bg-dirtwhite rounded-[60px] text-purple1 items-stretch hover:-translate-y-[-10px]  hover:bg-purple2 hover:text-white transition-all">Subscribe</button></a>
+            </div>
+        </div>
+        <div class="blob33 hidden md:block">
+            <img src="../images/ellipse-33.png" alt="">
+        </div>
+    </div>
+
+    <!-- footer -->
+
+    <footer class="flex max-w-full py-[8.3rem] px-20 flex-col items-center justify-center bg-dirtwhite ">
+        <div class=" container flex flex-col md:flex-row md:items-start gap-[8.9rem]  items-center">
+            <div class="flex  flex-col md:flex-row items-start gap-[29px] ">
+                <div class="flex gap-1 items-center ">
+                    <svg class="w-9 h-9 bg-purple1 p-3" xmlns="http://www.w3.org/2000/svg" width="10" height="19"
+                        viewBox="0 0 10 19" fill="none">
+                        <path
+                            d="M2.15481 0.315918C2.15481 0.315918 -0.297807 17.593 2.15481 17.666C4.60743 17.7389 8.93527 1.51246 8.93527 1.51246"
+                            stroke="#F8F7FB" stroke-width="2" />
+                        <path d="M3.55829 5.95264C4.32912 9.92387 5.45726 11.2677 8.63531 12.217" stroke="#F8F7FB"
+                            stroke-width="1.5" />
+                    </svg>
+                    <span class="text-2xl text-purple1 font-semibold">ReadIt</span>
+                </div>
+                <div class="flex flex-col gap-16">
+                    <h3 class="max-w-[307px] text-2xl font-medium text-ash1">5123 Market St. #22B
+                        Charlottesville, California 44635</h3>
+                    <div class="flex flex-col gap-7 text-sm text-ash1">
+                        <p>(434) 546-4356</p>
+                        <p>adeyilegacy@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+            <div class="flex items-start">
+                <div class="flex flex-col gap-[7rem] ">
+                    <div class="flex items-start gap-20 overflow-hidden">
+                        <div class="">
+                            <a href="">
+                                <li class="list-none text-xs font-light leading-6 text-ash1">About</li>
+                            </a>
+                            <a href="">
+                                <li class="list-none text-xs font-light leading-6 text-ash1">Partners</li>
+                            </a>
+                            <a href="">
+                                <li class="list-none text-xs font-light leading-6 text-ash1">Contact</li>
+                            </a>
+                            <a href="">
+                                <li class="list-none text-xs font-light leading-6 text-ash1">Community</li>
+                            </a>
+                        </div>
+                        <div class="list-right">
+                            <a href="">
+                                <li class="list-none text-xs font-light leading-6 text-ash1">facebook</li>
+                            </a>
+                            <a href="">
+                                <li class="list-none text-xs font-light leading-6 text-ash1">Twitter</li>
+                            </a>
+                            <a href="">
+                                <li class="list-none text-xs font-light leading-6 text-ash1"> LinkedIn</li>
+                            </a>
+                            <a href="">
+                                <li class="list-none text-xs font-light leading-6 text-ash1">Instagram</li>
+                            </a>
+                        </div>
+                    </div>
+                    <div>
+                        <p class="text-sm font-light text-ash1">© 2023 Readit. All rights reserved.</p>
+                    </div>
+                </div>
+                <div
+                    class="w-[52px] h-[52px] bg-purple1 rounded-full flex items-center justify-center animate-bounce transition-[all_1s]">
+                    <a href="#hero"><svg class="" xmlns="http://www.w3.org/2000/svg" width="24" height="25"
+                            viewBox="0 0 24 25" fill="none">
+                            <path d="M12 5.99121L12 21.9912" stroke="#F8F7FB" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                            <path
+                                d="M18 11.9912L12.4096 5.18901C12.3584 5.12684 12.2955 5.07705 12.225 5.04295C12.1544 5.00885 12.0779 4.99121 12.0005 4.99121C11.9232 4.99121 11.8467 5.00885 11.7761 5.04295C11.7056 5.07705 11.6426 5.12684 11.5915 5.18901L6 11.9912"
+                                stroke="#F8F7FB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+    </footer>
+
+
+
+    <!-- swiper js -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script>
+
+        var swiper = new Swiper(".slide-container", {
+            slidesPerView: 4.3,
+            spaceBetween: 25,
+            grabCursor: true,
+            dynamicBullets: true,
+
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            breakpoints: {
+                0: {
+                    slidesPerView: 1.2,
+                },
+                520: {
+                    slidesPerView: 2.3,
+
+                },
+                750: {
+                    slidesPerView: 3.3,
+
+                },
+                950: {
+                    slidesPerView: 4.7,
+
+                },
+            },
+
+        });
+
+        var swiper = new Swiper(".slide-container-2", {
+            slidesPerView: 2.4,
+            spaceBetween: 25,
+            grabCursor: true,
+            dynamicBullets: true,
+
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            breakpoints: {
+                0: {
+                    slidesPerView: 1,
+                },
+                520: {
+                    slidesPerView: 1.3,
+
+                },
+                700: {
+                    slidesPerView: 1.5,
+
+                },
+
+                950: {
+                    slidesPerView: 2.4,
+
+                },
+
+            },
+
+        });
+
+    </script>
+
+</body>
+
+</html>

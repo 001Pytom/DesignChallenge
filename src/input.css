@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.blob1 {
+  position: absolute;
+  top: 170px;
+  left: 167px;
+}
+.blob2 {
+  position: absolute;
+  right: 46px;
+}
+.blob3 {
+  position: absolute;
+  bottom: 145px;
+  left: 395px;
+}
+.blob11 {
+  position: absolute;
+  left: 120px;
+  top: 187px;
+}
+.blob22 {
+  position: absolute;
+  left: 137px;
+  bottom: 148px;
+}
+.blob33 {
+  position: absolute;
+  right: 180px;
+  top: 133px;
+}
